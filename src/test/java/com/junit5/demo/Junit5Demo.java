@@ -1,6 +1,9 @@
 package com.junit5.demo;
 
 import com.util.Calculator;
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
@@ -57,6 +60,13 @@ public class Junit5Demo {
         int result = Calculator.count(1);
         System.out.println(result);
         assertEquals(9,result);
+
+    }
+
+    @Test
+    @BeforeEach
+    public void clearTest(){
+        Calculator.clear();
 
     }
 
