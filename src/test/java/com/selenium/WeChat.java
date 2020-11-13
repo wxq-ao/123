@@ -1,4 +1,4 @@
-package com.junit5.demo;
+package com.selenium;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
