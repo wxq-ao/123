@@ -19,7 +19,7 @@ import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-public class TestWeb {
+public class WeChat {
 
     public static WebDriver driver ;
     public static Actions actions;
