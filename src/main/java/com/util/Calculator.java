@@ -10,7 +10,7 @@ public class Calculator {
 
     }
 
-    public static int count(int x  ){
+    public  static int count(int x  ){
 
         result += x;
 
@@ -35,5 +35,9 @@ public class Calculator {
 
         return result = x / y ;
 
+    }
+
+    public static void clear(){
+        result = 0;
     }
 }
