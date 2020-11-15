@@ -92,12 +92,12 @@ public class WebTest {
     @Test
     public void scrollTest() throws InterruptedException {
         driver.get("https://www.baidu.com/");
-        driver.findElement(By.id("kw")).sendKeys("测试");
+        driver.findElement(By.id("kw")).sendKeys("霍格沃兹测试学院");
 
 
-        TouchActions actions = new TouchActions(driver);
+        TouchActions actions1 = new TouchActions(driver);
 
-        actions.click(driver.findElement(By.id("su")));
+        actions1.click(driver.findElement(By.id("su")));
 //        driver.findElement(By.id("su")).click();
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
